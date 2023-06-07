@@ -15,7 +15,7 @@ export default defineConfig({
   base : '/[REPO-NAME]/'
 })
 ```
-2. Go to settings in the REPO and navigate to the actions section > General
+2. Go to settings in the REPO and navigate to the actions section > General.
 3. Go to the bottom and switch on `Read and write permissions` and hit save.
 4. Navigate to the `Actions` tab and `Create your own`.
 5. Paste the following :
@@ -72,6 +72,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
 ```
-6. Commit the change and go back to `Actions` tab.
-7. Click on the newly made deployment
-8. 
+6. Go to settings again and activate Github Pages by switching to `Github Actions`.
+7. Go back to `Actions` tab.
+8. Click on the newly created deployment
+9. Rerun the failed job if failed
+10. DONE
