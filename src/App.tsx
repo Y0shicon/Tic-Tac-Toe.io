@@ -62,9 +62,6 @@ function Board(props: any) {
 // End of board component
 
 //Restart Button component
-function RestartButton(props: any) {
-  return <button className="restartButton" onClick={props.onRestartClick}>Restart</button>
-}
 
 // The winner component
 function DisplayWinner(props: any) {
