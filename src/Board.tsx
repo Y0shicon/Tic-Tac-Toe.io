@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './App.css'
 import calculateWinner from "./components/calculateWinner";
-import Square from "./components/square";
+import Square from "./components/Square";
 
 // The board component
 export default function Board(props: any) {
