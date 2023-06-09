@@ -47,6 +47,11 @@ body{
   .gridContainer{
     width: 100%;
   }
+
+  .restartButton{
+    position: static;
+    margin-top: 20px;
+  }
 }
 
 
