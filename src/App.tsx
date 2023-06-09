@@ -6,10 +6,10 @@ export default function App() {
   // State to keep track of the board
   const [board, setBoard] = useState(Array(9).fill(''))
 
-  return <>
+  return <div className="gridWrapper">
     <DisplayWinner winner={calculateWinner(board)}/>
     <Board positions={board} setBoard={setBoard}/>
-  </>
+  </div>
 }
 // End of main component
 
