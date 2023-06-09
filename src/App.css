@@ -37,8 +37,7 @@
 .square:hover{
   cursor: pointer;
 
-  background-color: #646cff;
-  color: white;
+  border-color: #646cff;
 }
 
 /* When the width is less than 1100px, then the grid is centered vertically with the screen */
