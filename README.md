@@ -1,6 +1,6 @@
 # Tic-Tac-Toe.io
 
-### TBA - Restart button and history 
+### TBA - History 
 
 Deployment Tutorial :  
 
