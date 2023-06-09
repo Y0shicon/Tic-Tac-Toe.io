@@ -34,17 +34,6 @@ body{
   padding: 2rem;
 }
 
-button {
- background-color: white;
-
- color: black;
- font-size: 2rem;
-}
-button:hover {
-  border-color: #646cff;
-}
-
-
 /* When the width is less than 1000px, then the root is centered vertically with the screen */
 @media screen and (max-width: 1000px){
   #root{
